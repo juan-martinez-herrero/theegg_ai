@@ -1,4 +1,5 @@
-# theegg_ai(https://theegg.ai/plataforma/index.html): ![theEgglogo](https://theegg.ai/images/logo.png)
+# theegg_ai(https://theegg.ai/plataforma/index.html): 
+![theEgglogo](https://theegg.ai/images/logo.png)
 Task related to the Artificial Intelligence School TheEgg / Tareas relacionadas con la Escuela de AI TheEgg
 
 ## Tasks / Tareas:
