@@ -1,4 +1,4 @@
-# theegg_ai(https://theegg.ai/plataforma/index.html): <a href="https://theegg.ai/plataforma/index.html"><img src="https://theegg.ai/images/logo.png" align="center" height="24" width="24" ></a>
+# theegg_ai(https://theegg.ai/plataforma/index.html): <a href="https://theegg.ai/plataforma/index.html"><img src="https://theegg.ai/images/logo.png"</a>
 Task related to the Artificial Intelligence School TheEgg / Tareas relacionadas con la Escuela de AI TheEgg
 
 ## Tasks / Tareas:
