@@ -1,6 +1,6 @@
 
 
-# theegg_ai(https://theegg.ai/plataforma/index.html): <a href="https://theegg.ai/plataforma/index.html"><img src="https://github.com/juan-martinez-herrero/theegg_ai/tree/master/images/README/The_Egg_icon1.JPG" align="center" height="135" width="145" ></a>
+# theegg_ai(https://theegg.ai/plataforma/index.html):
 Task related to the Artificial Intelligence School TheEgg / Tareas relacionadas con la Escuela de AI TheEgg :egg:
 
 ## Tasks / Tareas:

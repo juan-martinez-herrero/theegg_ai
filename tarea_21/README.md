@@ -24,79 +24,9 @@ El número 10000 será siempre nuestro denominador, por lo tanto tiene sentido u
 
 3. **Dividir el entero y 10.000 con el MCD para conseguir el numerador y denominador respectivamente**.
 
-![Diagrama de Flujo](tarea21_diagramaFlujo.png)
-![diagrama de flujo](https://drive.google.com/uc?export=view&id=1g76tF9j2ljuqHCZH9eKPB8ssEx1AKeU7)
+![ ](tarea21_diagramaFlujo.png)
+![ ](https://drive.google.com/uc?export=view&id=1g76tF9j2ljuqHCZH9eKPB8ssEx1AKeU7)
 ![ ](https://raw.githubusercontent.com/dmaestrow/theegg_ai/master/tarea_21/flowchart_%2321.png)
-
-## Programas
-
-| Programa              | Lenguaje | Observaciones                                                                       |
-|-----------------------|----------|-------------------------------------------------------------------------------------|
-| tarea_21.py           | Python   | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
-| tarea_21_numpy_gcd.py | Python   | Halla el máximo común divisor con la función gcd de ``numpy``.                      | 
-| tarea_21_simple.py    | Python   | Damos los factores primos de 10000 como conocidos                                   | 
-| tarea_21.jl           | Julia    | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
-| tarea_21_gcd.jl       | Julia    | Halla el máximo común divisor con la función gcd de Julia.                          |
-
-
-El programa está escrito en Python. Se divide en 3 partes:
-
-1. Función para calcular el Máximo Común Divisor.
-
-2. Función principal que:
-
-   Recibe el número como argumento, que esta dentro del rango aceptado [0.0001, 0.9999] y lo convierte en entero.
-
-   LLama a la función para conseguir el MCD y recibe el resultado.
-
-   Divide el entero y 10.000 para conseguir la fracción irreducible e imprime el resultado.
-
-3. Bucle infinito para ir pidiento los números al usuario e imprimir el resultado.
-
-## Ejecución
-
-
-
-El programa está desarrollado con Python 3.6.4
-
-Ejecutar comando `python app.py` en la terminal.
-
-A continuación te pedirá que escribas un número decimal. Escribe un número y dale a Enter.
-
-Nota: El separador de decimales debe ser un punto
-
-```console
-╰─$ python3 app.py
-Mete un número entre [0.0001, 0.9999]: (1 para salir)
-0.376
-Fraccion minima de 0.3760: 47/125
-Mete un número entre [0.0001, 0.9999]: (1 para salir)
-1
-```
-
-## Referencias
-[1] http://www.nachocabanes.com/retos/reto.php?n=013
-
-#########################################################################################################################################################################
-
-
-
-
-
-
-## Ejecución
-
-El programa esta escrito usando el compilador de **Python 3.8.3** por lo que se aconseja usar esa versión para ejecutarla. Para eso es suficiente ir a la carpeta de la tarea en una ventana de terminal y teclear `python3 app.py`.
-
-El prompt empezará a imprimir el mensaje para pedir un número para hacer el calculo. Introduciendo 1 pararemos el programa.
-
-
-
-###################################################################################################################################################################
-
-
-
-## Solución propuesta
 
 Se ha implementado una función en python (`get_irreducible_fraction(x,num_digits=4)`) que calcula la fracción irreducible de un numero x a partir del algoritmo explicado en [1].
 
@@ -109,35 +39,58 @@ Esto permite hallar la solución simultaneamente dividiendo numerador y denomina
 ![ ](https://raw.githubusercontent.com/dmaestrow/theegg_ai/master/tarea_21/flowchart_%2321.png)
 
 
-### Ejecución   
+## Programas
 
-La función se ha implementado en un script en python que toma como argumento un numero de entrada y visualiza el resultado (`main_tarea21.py`). 
-En caso de no pasarle ningún número, el script llama a la función con un numero aleatorio dentro del rango estipulado. 
+| Programa              | Lenguaje | Observaciones                                                                       |
+|-----------------------|----------|-------------------------------------------------------------------------------------|
+| tarea_21.py           | Python   | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
+| tarea_21_numpy_gcd.py | Python   | Halla el máximo común divisor con la función gcd de ``numpy``.                      | 
+| tarea_21_simple.py    | Python   | Damos los factores primos de 10000 como conocidos                                   | 
+| tarea_21.jl           | Julia    | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
+| tarea_21_gcd.jl       | Julia    | Halla el máximo común divisor con la función gcd de Julia.                          |
 
-Para ejecutarlo basta con llamarlo desde línea de consola:
+## Ejecución
 
+### tarea_21.py
+
+```console
+cd ~/repo/theegg_ai/tarea_21/
+╰─$ python3 tarea_21.py 0.2340
+117 / 500
 ```
-cd ~/EGG/repo/theegg_ai/tarea_21/
+### tarea_21_numpy_gcd.py
+Para ejecutar este fichero habría que disponer de ``numpy``.
+ 
+```console
+cd ~/repo/theegg_ai/tarea_21/
+╰─$ python3 tarea_21_ultra_simple.py 0.2340
+117 / 500
 ```
 
-```
-python main_tarea21.py 0.1995
-```
-
-Obteniendo a la salida el número aleatorio empleado y su correspondiente fracción irreducible, como por ejemplo:
-
-
-```
-x = 0.1995
+### tarea_21_simple.py
+```console
+cd ~/repo/theegg_ai/tarea_21/
+╰─$ python3 tarea_21.py 0.2340
+117 / 500
 ```
 
+## Programas en Julia
+La programación de las tareas en Julia las realizo por querer familiarizarme con el lenguaje. El evaluador puede centrarse en los programas en Python si así lo desea.
+Para ejecutar los programas en Julia es necesario disponer del REPL de Julia (intérprete). Es posible bajarlo desde [aquí](https://julialang.org/downloads).
+
+### tarea_21.jl
+```console
+cd ~/repo/theegg_ai/tarea_21/
+╰─$ julia tarea_21.jl 0.2340
+117/500
 ```
-399/2000
+
+### tarea_21_gcd.jl
+```console
+cd ~/repo/theegg_ai/tarea_21/
+╰─$ julia tarea_21_gcd.jl 0.2340
+117/500
 ```
-### Requisitos
-Python, probado en 2.7.12 o 3.5.2 (Ubuntu).
 
-
-
-
-############################################################################################################################################################################
+## Referencias
+[1] http://www.nachocabanes.com/retos/reto.php?n=013
