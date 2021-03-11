@@ -55,7 +55,7 @@ Esto permite hallar la solución simultaneamente dividiendo numerador y denomina
 
 ```console
 cd ~/repo/theegg_ai/tarea_21/
-╰─$ python3 tarea_21.py 0.2340
+╰─$ python3 denominador_comun.py 0.2340
 117 / 500
 ```
 ### tarea_21_numpy_gcd.py
@@ -63,14 +63,14 @@ Para ejecutar este fichero habría que disponer de ``numpy``.
  
 ```console
 cd ~/repo/theegg_ai/tarea_21/
-╰─$ python3 tarea_21_ultra_simple.py 0.2340
+╰─$ python3 maximo_comun_divisor.py 0.2340
 117 / 500
 ```
 
 ### tarea_21_simple.py
 ```console
 cd ~/repo/theegg_ai/tarea_21/
-╰─$ python3 tarea_21.py 0.2340
+╰─$ python3 factor_numero.py 0.2340
 117 / 500
 ```
 
@@ -81,14 +81,14 @@ Para ejecutar los programas en Julia es necesario disponer del REPL de Julia (in
 ### tarea_21.jl
 ```console
 cd ~/repo/theegg_ai/tarea_21/
-╰─$ julia tarea_21.jl 0.2340
+╰─$ julia denominador_comun.jl 0.2340
 117/500
 ```
 
 ### tarea_21_gcd.jl
 ```console
 cd ~/repo/theegg_ai/tarea_21/
-╰─$ julia tarea_21_gcd.jl 0.2340
+╰─$ julia maximo_comun_divisor.jl 0.2340
 117/500
 ```
 
