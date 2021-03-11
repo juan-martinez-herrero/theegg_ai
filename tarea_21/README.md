@@ -41,13 +41,13 @@ Esto permite hallar la solución simultaneamente dividiendo numerador y denomina
 
 ## Programas
 
-| Programa              | Lenguaje | Observaciones                                                                       |
-|-----------------------|----------|-------------------------------------------------------------------------------------|
-| tarea_21.py           | Python   | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
-| tarea_21_numpy_gcd.py | Python   | Halla el máximo común divisor con la función gcd de ``numpy``.                      | 
-| tarea_21_simple.py    | Python   | Damos los factores primos de 10000 como conocidos                                   | 
-| tarea_21.jl           | Julia    | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
-| tarea_21_gcd.jl       | Julia    | Halla el máximo común divisor con la función gcd de Julia.                          |
+| Programa                | Lenguaje | Observaciones                                                                       |
+|-------------------------|----------|-------------------------------------------------------------------------------------|
+| denominador_comun.py    | Python   | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
+| maximo_comun_divisor.py | Python   | Halla el máximo común divisor con la función gcd de ``numpy``.                      | 
+| factor_numero.py        | Python   | Damos los factores primos de 10000 como conocidos                                   | 
+| denominador_comun.jl    | Julia    | Calculamos los factores de 10000 y reducimos *abcd* todo lo que se pueda con ellos. |
+| maximo_comun_divisor.jl | Julia    | Halla el máximo común divisor con la función gcd de Julia.                          |
 
 ## Ejecución
 
